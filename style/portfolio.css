@@ -30,6 +30,9 @@ nav{
 .color-orange{
     color: #FD6E0A;
 }
+.text-center{
+    text-align: center;
+}
 .logo h2{
     font-size: 45px;
     font-weight: 900;
@@ -105,7 +108,7 @@ nav .menu a{
    vertical-align: bottom;
    height: 700px;
 }
-#about, #resume,{
+#about, #resume{
     padding-top: 130px;
 }
 
@@ -181,14 +184,15 @@ nav .menu a{
 }
 .resume-card h3{
     font-size: 25px;
-    padding-bottom:10px;
+    margin-bottom:10px;
     font-weight: bold;
     color: #474747;
+
     
 }
 .resume-card .card-info{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 20px;
     color: #474747;
 
@@ -200,12 +204,50 @@ nav .menu a{
     color: #474747;
 }
 
-hr{
+.resume-container hr{
     margin-bottom: 30px;
 }
 #download{
     max-width: 1140px;
     margin: 0 0 0 45%;
-    
+}
+footer{
+    margin-top:130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
 }
 
+footer .footer-container{
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 280px;
+}
+.footer-container .social p{
+    max-width: 600px;
+    color:#474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.footer-container .social{
+    max-width: 600px;
+}
+.footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .icons a{
+   margin-right: 24px;
+
+ }
+.footer-container form input[type="text"], .footer-container form input[type="email"], .footer-container form textarea{
+    width: 500px;
+    padding: 18px 15px;
+    margin-bottom: 24px;
+    border: transparent;
+    border-radius: 5px;
+
+}
