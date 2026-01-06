@@ -13,16 +13,18 @@
 header{
     background-color: #FFF8F3 ;
     padding-top: 50px;
+    background: url('/developer.png'),url('/header_bg.png'),#FFF8F3 ;
+    background-repeat: no-repeat;
+    background-position: left 40%, 100% 100%;
     
 }
 nav{
-    width: 80%;
+    width: 85%;
     max-width: 2381px;
     /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-    
 
 }
 .color-orange{
@@ -52,9 +54,23 @@ nav .menu a{
     border-radius: 5px;
     padding: 18px 35px;
 }
+.section-heading{
+    max-width: 900px;
+    text-align: center;
+}
+.section-heading h2{
+   font-size: 35px;
+   margin-bottom: 25px;
+}
+.section-heading p{
+   font-size: 20px;
+   margin-bottom: 20px;
+   line-height: 30px;
+}
+
 
 #banner{
-    margin:  47px 185px 120px 180px;
+    margin:  30px 15px 0px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +82,7 @@ nav .menu a{
     margin-bottom: 5px ;
 }
 #banner .banner-content{
-    max-width: 585px;
+    max-width: 600px;
 }
 #banner .banner-content h1{
     font-size: 85px;
@@ -80,5 +96,38 @@ nav .menu a{
     font-size: 18px;
     color:#757575;
    margin-bottom: 18px;
+}
+
+#banner .banner-image img{
+   vertical-align: bottom;
+   height: 700px;
+}
+#about{
+    padding-top: 130px;
+}
+
+#about .about-container{
+    width: 80%;
+    max-width: 1170px;
+   margin: 0 auto;
+   text-align: center;
+   justify-content: center;
+   background-color : #FFF8F3;
+   padding: 120px;
+}
+#about .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p{
+    font-size: 20px;
+    line-height: 30px;
+
+
+}
+.about-info .info-card h4{
+    font-size: 20px;
+
 
 }
