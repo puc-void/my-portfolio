@@ -15,7 +15,7 @@ header{
     padding-top: 50px;
     background: url('/developer.png'),url('/header_bg.png'),#FFF8F3 ;
     background-repeat: no-repeat;
-    background-position: left 40%, 100% 100%;
+    background-position: 1% 40%, 100% 100%;
     
 }
 nav{
@@ -34,7 +34,7 @@ nav{
     text-align: center;
 }
 .logo h2{
-    font-size: 45px;
+    font-size: 80px;
     font-weight: 900;
 }
 nav .menu{
@@ -56,6 +56,16 @@ nav .menu a{
     border: none;
     border-radius: 5px;
     padding: 18px 35px;
+}
+.btn:hover{
+    background-color: teal ;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    cursor: pointer;
 }
 .section-heading{
     max-width: 1140px;
@@ -220,19 +230,19 @@ footer{
 footer .footer-container{
     width: 80%;
     max-width: 1140px;
-    margin: 0 auto;
+    margin-left: 420px;
     display: flex;
-    gap: 280px;
+    gap: 60%;
 }
 .footer-container .social p{
-    max-width: 600px;
+    width: 300px;
     color:#474747;
     line-height: 28px;
     font-size: 16px;
-    margin-bottom: 28px;
+    padding-bottom: 28px;
 }
 .footer-container .social{
-    max-width: 600px;
+    max-width: 900px;
 }
 .footer-container h2{
     font-size: 35px;
@@ -240,7 +250,7 @@ footer .footer-container{
     margin-bottom: 20px;
 }
 .footer-container .icons a{
-   margin-right: 24px;
+   margin-right: 20px;
 
  }
 .footer-container form input[type="text"], .footer-container form input[type="email"], .footer-container form textarea{
