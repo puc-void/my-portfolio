@@ -9,69 +9,32 @@
 /* =========================
    MOBILE RESPONSIVE FIX
 ========================= */
-@media (min-width: 768px) and (max-width: 1024px) {
 
-  nav {
-    width: 90%;
-  }
-
-  .logo h2 {
-    font-size: 60px;
-  }
-
-  #banner {
-    margin: 40px;
-  }
-
-  #banner .banner-content h1 {
-    font-size: 55px;
-    width: 100%;
-  }
-
-  #banner .banner-image img {
-    height: 500px;
-  }
-
-  #about .about-container {
-    padding: 80px 40px;
-  }
-
-  #skills .skill-box {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .skill-box .skill-card {
-    max-width: 45%;
-  }
-
-  footer .footer-container {
-    margin-left: 0;
-    padding: 0 40px;
-    gap: 60px;
-  }
-}
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 header{
     background-color: #FFF8F3 ;
-    padding-top: 50px;
-    background: url('./developer.png'),url('./header_bg.png'),#FFF8F3 ;
+    padding-top: 2%;
+
+    background: url('/developer.png'),url('/header_bg.png'),#FFF8F3 ;
     background-repeat: no-repeat;
-    background-position: 1% 40%, 100% 100%;
+    background-position: 2% , 99.99% 100%;
+    background-size:4.8%, 35%;
+
     
 }
 nav{
-    width: 85%;
-    max-width: 2381px;
+    max-width: 85%;
     /* border: 1px solid red; */
-    margin: 0px auto;
+    margin:0 auto ;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 
 }
+
 .color-orange{
     color: #FD6E0A;
 }
@@ -131,7 +94,8 @@ nav .menu a{
 
 
 #banner{
-    margin:  30px 15px 0px 120px;
+    margin:  30px 15px 0 120px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,6 +108,7 @@ nav .menu a{
 }
 #banner .banner-content{
     max-width: 600px;
+    margin-bottom: 60px;
 }
 #banner .banner-content h1{
     font-size: 85px;
@@ -160,8 +125,10 @@ nav .menu a{
 }
 
 #banner .banner-image img{
-   vertical-align: bottom;
-   height: 700px;
+   
+   height: 500px;
+    vertical-align: middle;
+
 }
 #about, #resume{
     padding-top: 130px;
@@ -169,7 +136,7 @@ nav .menu a{
 
 #about .about-container{
     width: 80%;
-    max-width: 1140px;
+    max-width: 1920px;
    margin: 0 auto;
    text-align: center;
    justify-content: center;
@@ -231,6 +198,7 @@ nav .menu a{
     margin: 100px auto 0;
     gap: 24px;
     max-width: 1140px;
+    align-items: center;
 }
 .resume-container .section-title{
     font-size: 30px;
@@ -273,11 +241,11 @@ footer{
 }
 
 footer .footer-container{
-    width: 80%;
-    max-width: 1140px;
-    margin-left: 420px;
+    width: 70%;
+    max-width: 960px;
+    margin-left: 320px;
     display: flex;
-    gap: 60%;
+    gap: 50%;
 }
 .footer-container .social p{
     width: 300px;
