@@ -6,6 +6,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* =========================
+   MOBILE RESPONSIVE FIX
+========================= */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  nav {
+    width: 90%;
+  }
+
+  .logo h2 {
+    font-size: 60px;
+  }
+
+  #banner {
+    margin: 40px;
+  }
+
+  #banner .banner-content h1 {
+    font-size: 55px;
+    width: 100%;
+  }
+
+  #banner .banner-image img {
+    height: 500px;
+  }
+
+  #about .about-container {
+    padding: 80px 40px;
+  }
+
+  #skills .skill-box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill-box .skill-card {
+    max-width: 45%;
+  }
+
+  footer .footer-container {
+    margin-left: 0;
+    padding: 0 40px;
+    gap: 60px;
+  }
+}
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -13,7 +58,7 @@
 header{
     background-color: #FFF8F3 ;
     padding-top: 50px;
-    background: url('/developer.png'),url('/header_bg.png'),#FFF8F3 ;
+    background: url('./developer.png'),url('./header_bg.png'),#FFF8F3 ;
     background-repeat: no-repeat;
     background-position: 1% 40%, 100% 100%;
     
